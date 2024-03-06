@@ -19,7 +19,7 @@ class Circle(Shape):
   def area(self)->float:
     return 3.14 * self.redious * self.redious
   def perimeter(self) -> float:
-    return 2* 3.14> self.redious
+    return 2 * 3.14 * self.redious
 
 class Rectangle(Shape):
   def __init__(self,leangth: float,height: float):
